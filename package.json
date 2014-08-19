@@ -1,0 +1,41 @@
+{
+  "name": "express-bem-bemhtml",
+  "version": "0.0.1",
+  "description": "bemhtml engine for express-bem",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "jshint lib test && jscs lib test",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zxqfox/express-bem-bemhtml.git"
+  },
+  "keywords": [
+    "express",
+    "express-bem",
+    "bemhtml",
+    "engine"
+  ],
+  "author": "Alexej Yaroshevich <zxqfox@gmail.com> (http://github.com/zxqfox)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxqfox/express-bem-bemhtml/issues"
+  },
+  "homepage": "https://github.com/zxqfox/express-bem-bemhtml",
+  "peerDependencies": {
+    "express-bem": "0.2.x"
+  },
+  "devDependencies": {
+    "express": ">= 3.0",
+    "express-bem": ">= 0.2.0",
+    "jscs": "^1.5.9",
+    "jshint": "^2.5.4",
+    "mocha": "*",
+    "request": "*"
+  },
+  "files": [
+    "lib",
+    "LICENSE"
+  ]
+}
