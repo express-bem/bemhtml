@@ -1,10 +1,12 @@
+# express-bem-bemhtml
 
-# express-bem-bemhtml [![Build Status](https://travis-ci.org/zxqfox/express-bem-bemhtml.svg)](https://travis-ci.org/zxqfox/express-bem-bemhtml) [![Dependency Status](https://david-dm.org/zxqfox/express-bem-bemhtml.png)](https://david-dm.org/zxqfox/express-bem-bemhtml)
+[![Build Status](https://travis-ci.org/express-bem/bemhtml.svg)](https://travis-ci.org/express-bem/emhtml)
+ [![Dependency Status](https://david-dm.org/express-bem/bemhtml.png)](https://david-dm.org/express-bem/bemhtml)
 
 [bemhtml.js][] engine (plugin) for [express-bem][]
 
 [bemhtml.js]: https://github.com/bem/bem-core
-[express-bem]: https://github.com/zxqfox/express-bem
+[express-bem]: https://github.com/express-bem/express-bem
 
 ## Why
 
@@ -33,4 +35,4 @@ bem.usePlugin('express-bem-bemhtml');
 
 MIT [License][]
 
-[License]: https://github.com/zxqfox/express-bem/blob/master/LICENSE
+[License]: https://github.com/express-bem/express-bem/blob/master/LICENSE
