@@ -17,7 +17,7 @@ describe('basic renders', function () {
     it('should generate html page with bemhtml', function (done) {
         var app = EXPRESS();
         var bem = EXPRESSBEM(bemOpts).bindTo(app);
-        bem.usePlugin(EXPRESSBEMTHML);
+        bem.usePlugin(EXPRESSBEMTHML, {source: '_?.bemhtml.js'});
 
         app.render('custom', {bemjson: bemjson}, function (err, html) {
             ASSERT.notEqual(html.indexOf('<!DOCTYPE'), -1);
