@@ -1,6 +1,6 @@
 {
   "name": "express-bem-bemhtml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bemhtml engine for express-bem",
   "main": "lib/index.js",
   "scripts": {
